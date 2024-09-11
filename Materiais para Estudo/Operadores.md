@@ -233,3 +233,6 @@ x = a + (++b);  // ++ tem maior precedência do que +
 > Portanto, a variável `a` é exibida tanto em formato decimal quanto hexadecimal para facilitar a leitura pelos humanos, mesmo que internamente ela esteja armazenada em formato binário.
 
 4. (K&R) Na representação em complemento de dois, "x &= (x-1)" apaga o bit menos significativo de x (bit mais à direita). Explique o porquê. Use esta otimização para escrever uma versão mais rápida de bitcount.
+
+<sup>Fonte: > https://www.inf.ufpr.br/roberto/ci067/02_operad.html
+</sup>

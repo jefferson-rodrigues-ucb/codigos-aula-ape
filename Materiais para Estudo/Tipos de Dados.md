@@ -144,3 +144,6 @@ enum boolean { FALSE TRUE };
 ```
 
 O compilador atribui o valor inteiro 0 (zero) ao primeiro elemento da enumeração, e 1 (um) ao segundo, que são as definições da linguagem para falso (0) e verdadeiro (1).
+
+<sup>Fonte: > https://www.inf.ufpr.br/roberto/ci067/02_tipos.html
+</sup>

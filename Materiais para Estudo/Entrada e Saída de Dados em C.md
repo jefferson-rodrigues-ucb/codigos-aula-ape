@@ -220,3 +220,6 @@ A função `gets()` é problemática porque o usuário pode escrever uma sequên
        999  31.6069  2.9999
       1000  31.6227  3.0000
     ```
+
+<sup>Fonte: > https://www.inf.ufpr.br/roberto/ci067/03_es.html
+</sup>

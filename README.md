@@ -1,6 +1,6 @@
 # Algoritmos e Programação Estruturada
 
-Códigos usados em sala durante a disciplina.
+Códigos utilizados em sala durante a disciplina.
 
 ## Resumo das Aulas
 
