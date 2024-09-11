@@ -1,29 +1,44 @@
 # Algoritmos e Programação Estruturada
+
 Códigos usados em sala durante a disciplina.
 
-### Aula 1
-Apresentação da Disciplina.
+## Resumo das Aulas
 
-Conceitos importantes.
+#### Aula 1
 
-### Aula 2
-Algoritmos.
+- Apresentação da Disciplina
+- Conceitos Importantes
 
-### Aulas 3 e 4
+#### Aula 2
 
-Tipos e atribuição de variáveis.
+- Algoritmos
 
-Aritmética.
+#### Aulas 3 e 4
 
-### Aulas 5 e 6
+- Tipos e Atribuição de Variáveis
+- Aritmética
 
-Estruturas de Decisão.
+#### Aulas 5 e 6
 
-### Aulas 7 e 8
-Estruturas de Repetição.
+- Estruturas de Decisão
 
-### Aulas 9 e 10
+#### Aulas 7 e 8
 
-Modularidade e Funções.
+- Estruturas de Repetição
 
-Retornos e argumentos.
+#### Aulas 9 e 10
+
+- Modularidade e Funções
+- Retornos e Argumentos
+
+## Materiais para Estudo
+
+Esta seção contém os materiais de estudo convertidos para o formato Markdown, que foram disponibilizados pelo professor no AVA. Estes documentos complementam os conteúdos das aulas e podem ser úteis para revisão e prática.
+
+### Materiais Disponíveis
+
+- [Operadores e Aritmética em C](/Materiais%20para%20Estudo/Operadores.md)
+- [Tipos de Dados](/Materiais%20para%20Estudo/Tipos%20de%20Dados.md)
+- [Entrada e Saída de Dados em C](/Materiais%20para%20Estudo/Entrada%20e%20Saída%20de%20Dados%20em%20C.md)
+
+Explore os materiais para fortalecer sua compreensão dos tópicos abordados nas aulas e aprimorar suas habilidades em algoritmos e programação estruturada.
