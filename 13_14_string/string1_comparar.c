@@ -3,15 +3,15 @@
 
 /* Como comparar duas strings */
 int main() {
-	char nome1[] = "Teste";
-	char nome2[] = {'T','e','s','t','e','\0'};
+	char s1[] = "Teste";
+	char s2[] = {'T','e','s','t','e','\0'};
 	
-	if (nome1 == nome2) {
+	if (s1 == s2) {
 		printf("Isso não deveria funcionar!");
 	}
 	
 	/* Quando strcmp for zero, os dois textos são iguais */
-	if (strcmp(nome1, nome2) == 0) {
+	if (strcmp(s1, s2) == 0) {
 		printf("Iguais.");
 	}
 	

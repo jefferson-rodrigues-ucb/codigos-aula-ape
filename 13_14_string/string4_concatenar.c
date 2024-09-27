@@ -2,15 +2,15 @@
 #include <string.h>
 
 int main() {
-	char nome1[] = "Seu nome: ";
-	char nome2[101];
+	char sdest[101] = "Seu nome: ";
+	char nome[101];
 	
 	printf("Digite um nome: ");
-	fgets(nome2, 100, stdin);
+	fgets(nome, 100, stdin);
 	
-	strcat(nome1, nome2);
+	strcat(sdest, nome);
 	
-	printf("%s", nome1);
+	printf("%s", sdest);
 	
 	return 0;
 }
