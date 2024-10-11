@@ -18,7 +18,7 @@ int main() {
 	
 	for(i = 0; i < TAM; i++) {
 		printf("Digite o elemento %d: ", i);
-		scanf("%d", &vet[i]);
+		scanf("%d", (vet + i));
 	}
 	
 	printf("Maior elemento: %d\n", maior(vet));
