@@ -31,11 +31,11 @@ $$
 ## Compilação
 ### Windows
 ```cmd
-gcc -o complexo.exe main.c complexo.h
+gcc -o complexo.exe main.c complexo.c
 ```
 ### Unix
 ```cmd
-gcc -o complexo main.c complexo.h
+gcc -o complexo main.c complexo.c
 ```
 ## Execução
 ### Windows
