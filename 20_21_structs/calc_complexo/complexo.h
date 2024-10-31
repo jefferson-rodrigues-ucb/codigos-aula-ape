@@ -4,11 +4,11 @@
 typedef struct num_complexo {
     float real;
     float imag;
-} complexo;
+} complexo_t;
 
-complexo soma(complexo n1, complexo n2);
-complexo subt(complexo n1, complexo n2);
-complexo mult(complexo n1, complexo n2);
-complexo divi(complexo n1, complexo n2);
+complexo_t soma(complexo_t n1, complexo_t n2);
+complexo_t subt(complexo_t n1, complexo_t n2);
+complexo_t mult(complexo_t n1, complexo_t n2);
+complexo_t divi(complexo_t n1, complexo_t n2);
 
 #endif

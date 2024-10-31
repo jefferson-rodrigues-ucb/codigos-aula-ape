@@ -4,7 +4,7 @@
 #include "complexo.h"
 
 int main() {
-    complexo a, b, r;
+    complexo_t a, b, r;
     char oper;
 
     printf("Digite a operacao: ");
