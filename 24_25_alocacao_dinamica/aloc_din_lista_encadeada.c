@@ -18,7 +18,7 @@ aluno_t *criar() {
     aluno_t *aluno;
     aluno = (aluno_t *)malloc(sizeof(aluno_t));
     if (aluno == NULL) {
-        printf("Deu ruim!");
+        printf("Erro ao alocar!");
         return NULL;
     }
     printf("Digite o nome do aluno: ");
@@ -58,16 +58,12 @@ int main() {
     }
 
     // Limpar a lista
-    do {
-        aux = primeiro_aluno;
-        while (aux->prox->prox != NULL) {
-            aux = aux->prox;
-        }
-        printf("free %s\n", aux->prox->nome);
-        free(aux->prox);
-        aux->prox = NULL;
-    } while (aux != primeiro_aluno);
+    do{
+		aux = primeiro_aluno;
+		primeiro_aluno = aux->prox;
+		printf("Limpando: %s\n", aux->nome);
+		free(aux);
+	} while(primeiro_aluno != NULL);
 
-    free(primeiro_aluno);
     return 0;
 }
